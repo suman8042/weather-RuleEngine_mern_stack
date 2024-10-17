@@ -34,11 +34,15 @@ cd repository-name
 
 ### Set Up the Backend
 cd backend
+
 npm install
+
 node server.js
 
 ### Set Up the Frontend
 cd frontend
+
 npm install
+
 npm start
 
