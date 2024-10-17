@@ -1,0 +1,75 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* Light background */
+  color: #333; /* Dark text for better readability */
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #4a90e2; /* Header color */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between the components */
+  max-width: 1200px; /* Limit max width */
+  margin: 20px auto; /* Center the container */
+}
+
+.card {
+  background-color: #ffffff; /* White background for the card */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding for inner content */
+  margin: 10px; /* Margin for spacing between cards */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  flex: 1; /* Allow cards to grow and fill the container equally */
+  min-width: 300px; /* Minimum width for responsiveness */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.card h2 {
+  margin-top: 0; /* Remove default margin on top */
+  color: #333; /* Dark text for headings */
+}
+
+button {
+  background-color: #4a90e2; /* Button color */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 10px 15px; /* Padding for the button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background transition */
+}
+
+button:hover {
+  background-color: #357ab8; /* Darker shade for hover */
+}
+
+input[type="text"] {
+  width: calc(100% - 24px); /* Full width with some padding */
+  padding: 10px; /* Inner padding for text input */
+  margin: 10px 0; /* Margin above and below input fields */
+  border-radius: 5px; /* Rounded corners */
+  border: 1px solid #ccc; /* Light gray border */
+}
+
+p {
+  font-size: 1.1em; /* Slightly larger text for results */
+}

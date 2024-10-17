@@ -1,0 +1,44 @@
+/* WeatherMonitoring.css */
+
+.WeatherMonitoring {
+    background-color: #ffffff; /* White background for the component */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Padding for inner content */
+    margin: 20px 0; /* Margin for spacing from other components */
+  }
+  
+  .WeatherMonitoring h3 {
+    margin-bottom: 15px; /* Space below the heading */
+    color: #007bff; /* Bootstrap primary color for the heading */
+  }
+  
+  .WeatherMonitoring ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .WeatherMonitoring li {
+    background-color: #f9f9f9; /* Light gray background for list items */
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding for list items */
+    margin-bottom: 20px; /* Space between list items */
+    transition: background-color 0.3s; /* Smooth background transition */
+  }
+  
+  .WeatherMonitoring li:hover {
+    background-color: #f1f1f1; /* Darker gray on hover */
+  }
+  
+  .WeatherMonitoring strong {
+    color: #343a40; /* Dark color for city name */
+  }
+  
+  /* Additional styles for spacing between data points */
+  .WeatherMonitoring .data-point {
+    display: block; /* Make each data point a block element */
+    margin-top: 5px; /* Space above each data point */
+    font-size: 14px; /* Font size for better readability */
+  }
+  
